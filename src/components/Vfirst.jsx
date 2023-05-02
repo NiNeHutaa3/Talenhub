@@ -94,7 +94,7 @@ const Vfirst = () => {
     exit={{ opacity: 0, y: 20 }}
     transition={{ duration: 0.5 }}
     >
-      <div className="bg-white border-2 border-white rounded-lg px-6 py-8" style={{ boxShadow: "0px 1px 4px rgba(0, 0, 0, 0.1)"}}>
+      <div className="bg-white border-2 border-white rounded-lg px-6 py-8 transition duration-500 transform hover:scale-105" style={{ boxShadow: "0px 1px 4px rgba(0, 0, 0, 0.1)"}}>
         <img
           className="w-32 h- object-contain mb-4 mx-auto"
           src={vacancy.image}

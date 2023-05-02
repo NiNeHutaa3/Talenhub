@@ -54,19 +54,19 @@ const Vacancy = () => {
 
   
   return (
-    <section className="section relative flex p-5  h-screen h-full overflow-y-scroll" >
-      <div className="w-1/3" >
+    <section className="section absolute flex h-full" >
+      <div className="w-1/3 " >
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0, transition: { duration: 0.5 } }}
         exit={{ opacity: 0, x: -100, transition: { duration: 0.5 } }}
-        className="flex flex-col items-start bg-white p-4 rounded-lg shadow-md mt-16" 
+        className="flex flex-col mt-32 sm:mt-16 items-start bg-white p-4 rounded-lg shadow-md " 
         >
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0, transition: { duration: 1 } }}
         exit={{ opacity: 0, x: -100, transition: { duration: 1 } }}
-        className="w-full mb-10 flex"
+        className="w-full mb-12 flex"
         >
           <input
             type="text"
@@ -88,7 +88,7 @@ const Vacancy = () => {
             <select
               value={filterOption}
               onChange={handleFilterOptionChange}
-              className="w-full border  px-4 py-1 rounded-lg shadow-md  focus:outline-none"
+              className="w-full border  px-4 py-1 rounded-lg shadow-md  focus:outline-none transition duration-500 transform hover:scale-105"
               >
               <option value="">Field To Work</option>
               <option value="option1">Option 1</option>
@@ -121,7 +121,7 @@ const Vacancy = () => {
                 value="type2"
                 checked={filterType.includes("type2")}
                 onChange={handleFilterTypeChange}
-                className="form-checkbox h-4 w-4 text-blue-600 rounded border-gray-300 focus:ring-2 focus:ring-blue-600"
+                className="form-checkbox h-6 w-6 text-blue-600 rounded border-gray-300 focus:ring-2 focus:ring-blue-600"
               />
               <span className="ml-2 ">Contract employees</span>
             </label>
@@ -188,17 +188,17 @@ const Vacancy = () => {
               <span className="ml-2 text-gray-700">Senior level</span>
             </label>
             <div class="mt-4 flex justify-center items-center">
-              <button href="#" class="px-8 py-2 text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 md:px-12 md:py-3 lg:px-20 lg:py-0">SORT</button>
+              <button href="#" class="px-8 py-0.5 text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 md:px-12 sm:py-1 lg:px-20 lg:py-0 transition duration-500 transform hover:scale-105">SORT</button>
             </div>
           </motion.div>
         </motion.div>
       </div>
-      <div class="flex flex-wrap justify-center mt-[1260px]">
+      <div class="flex flex-wrap justify-center mt-[3700px] sm:mt-[1260px]">
         <motion.div 
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -227,7 +227,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -256,7 +256,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -285,7 +285,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -314,7 +314,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -343,7 +343,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -372,7 +372,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -401,7 +401,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -430,7 +430,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -459,7 +459,7 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-md shadow-lg mt-[-60px] mr-10 mb-20 relative">
+        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
           <div class="absolute top-0 right-0 mt-3 mr-3">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
@@ -485,7 +485,7 @@ const Vacancy = () => {
           </div>
         </motion.div>
       </div>  
-      <div className="absolute flex mt-[3150px] left-[660px] bg-white rounded-lg ">
+      <div className="absolute flex mt-[7750px] left-[150px] sm:mt-[2850px] sm:left-[660px] bg-white rounded-lg ">
     <button onClick={Back} className="h-12 border-2 border-r-0 border-blue-600 px-4 rounded-l-lg hover:bg-blue-600 hover:text-white">
       <AiOutlineLeft />
     </button>

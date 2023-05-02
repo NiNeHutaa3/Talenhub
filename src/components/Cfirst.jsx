@@ -47,16 +47,16 @@ const Tfirst = () => {
         <div className="slider-container" style={{ maxHeight: "300px" }}>
           <Slider {...settings} className="mt-4 mb-9" style={{ marginTop: "50px", marginBottom: "50px" }}>
             <div>
-              <img className="w-full" src={Image1} alt="talent1" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image1} alt="talent1" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image2} alt="talent2" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image2} alt="talent2" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image1} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image1} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image2} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image2} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
           </Slider>
         </div>

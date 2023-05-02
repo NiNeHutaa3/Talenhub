@@ -9,7 +9,19 @@ const Header = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
-  if (location.pathname === '/SignUp' || location.pathname === '/SignIn' || location.pathname === '/Vacancy/Vacancy1' || location.pathname === '/Vacancy/Vacancy1/Vacancy2'   || location.pathname === '/Profile') {
+
+
+  if (location.pathname === '/SignUp' || 
+      location.pathname === '/SignIn' || 
+      location.pathname === '/Vacancy/Vacancy1' || 
+      location.pathname === '/Vacancy/Vacancy1/Vacancy2'   || 
+      location.pathname === '/Profile' || 
+      location.pathname === '/Company/Company1' || 
+      location.pathname === '/Talent/Talent1' || 
+      location.pathname === '/Profile' || 
+      location.pathname === '/See' || 
+      location.pathname === '/See/See1' || 
+      location.pathname === '/Manage' ) {
     return null;
   }
 
@@ -51,12 +63,12 @@ const Header = () => {
           isOpen ? 'block' : 'hidden'
         }`}
       >
-        <ul className="flex flex-col gap-y-3 lg:gap-x-28 lg:flex-row lg:items-center lg:ml-72 ">
+        <ul className="flex flex-col gap-y-3 lg:gap-x-28 lg:flex-row lg:items-center lg:ml-72  ">
           <li>
             <ScrollLink
               to="home"
               smooth={true}
-              className="text-[#406aff] hover:text-primary transition"
+              className="text-[#406aff] hover:text-primary transition transition"
               onClick={() => setIsOpen(false)}
             >
               <RouterLink to="/">HOME</RouterLink>
@@ -89,22 +101,23 @@ const Header = () => {
               TALENT
             </RouterLink>
           </li>
-          <li className="flex gap-x-4">
-            <RouterLink
-              to="/SignUp"
-              className="text-white max-w-[80px] lg:max-w-[200px] px-2 lg:px-6 py-1 lg:py-1.5 my-2 flex items-center rounded-md bg-blue-500 cursor-pointer hover:text-primary transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Sign Up
-            </RouterLink>
-            <RouterLink
-              to='/SignIn'
-              className='text-white max-w-[80px] lg:max-w-[200px] px-2 lg:px-6 py-1 lg:py-1.5 my-2 flex items-center rounded-md bg-blue-500 cursor-pointer hover:text-primary transition'
-              onClick={() => setIsOpen(false)}
-            >
-              Sign In
-            </RouterLink>
-          </li>
+          <li class="flex gap-x-4">
+  <RouterLink
+    to="/SignUp"
+    class="text-white max-w-[80px] lg:max-w-[200px] px-2 lg:px-6 py-1 lg:py-1.5 my-2 flex items-center rounded-2xl bg-blue-500 cursor-pointer hover:text-white transition duration-500 transform hover:scale-105"
+    onClick={() => setIsOpen(false)}
+  >
+    Sign Up
+  </RouterLink>
+  <RouterLink
+    to='/SignIn'
+    class='text-white max-w-[80px] lg:max-w-[200px] px-2 lg:px-6 py-1 lg:py-1.5 my-2 flex items-center rounded-2xl bg-blue-500 cursor-pointer hover:text-white transition duration-500 transform hover:scale-105'
+    onClick={() => setIsOpen(false)}
+  >
+    Sign In
+  </RouterLink>
+</li>
+
         </ul>  
       </motion.nav>
     </motion.header>

@@ -40,23 +40,23 @@ const Tfirst = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h1 className="text-4xl font-bold mb-10">Talent</h1>
-          <Link className="text-blue-500 underline font-medium hover:text-blue-700" to="/Talent">
+          <Link to="Company" className="text-blue-500 underline font-medium hover:text-blue-700" to="/Talent">
             SEE ALL
           </Link>
         </div>
-        <div className="slider-container" style={{ maxHeight: "300px" }}>
-          <Slider {...settings} className="mt-4 mb-9" style={{ marginTop: "50px", marginBottom: "50px" }}>
+        <div className="slider-container " style={{ maxHeight: "300px" }}>
+          <Slider {...settings} className="mt-4 mb-9 " style={{ marginTop: "50px", marginBottom: "50px" }}>
             <div>
-              <img className="w-full" src={Image1} alt="talent1" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image1} alt="talent1" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image2} alt="talent2" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image2} alt="talent2" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image3} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image3} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
             <div>
-              <img className="w-full" src={Image3} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
+              <img className="w-full transition duration-500 transform hover:scale-105" src={Image3} alt="talent3" style={{ maxHeight: "350px", maxWidth: "95%" }} />
             </div>
           </Slider>
         </div>
