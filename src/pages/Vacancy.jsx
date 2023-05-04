@@ -193,7 +193,7 @@ const Vacancy = () => {
           </motion.div>
         </motion.div>
       </div>
-      <div class="flex flex-wrap justify-center mt-[3700px] sm:mt-[1260px]">
+      <div class="flex flex-wrap justify-center mt-[3850px] sm:mt-[1310px]">
         <motion.div 
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
@@ -213,11 +213,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -242,11 +242,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -271,11 +271,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -300,11 +300,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -329,11 +329,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -358,11 +358,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -387,11 +387,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -416,11 +416,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -445,11 +445,11 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
@@ -474,18 +474,18 @@ const Vacancy = () => {
                   <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
                   <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
                   <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 text-  mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
                   <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-4 text-center mr-20">
-                  <a href="#" class="inline-block px-4  text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
+                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
+                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
                 </Link>
               </div>
             </div>
           </div>
         </motion.div>
       </div>  
-      <div className="absolute flex mt-[7750px] left-[150px] sm:mt-[2850px] sm:left-[660px] bg-white rounded-lg ">
+      <div className="absolute flex mt-[8050px] left-[150px] sm:mt-[3000px] sm:left-[660px] bg-white rounded-lg ">
     <button onClick={Back} className="h-12 border-2 border-r-0 border-blue-600 px-4 rounded-l-lg hover:bg-blue-600 hover:text-white">
       <AiOutlineLeft />
     </button>

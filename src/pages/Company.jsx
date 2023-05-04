@@ -133,8 +133,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -152,8 +152,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -171,8 +171,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -190,8 +190,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -209,8 +209,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -228,8 +228,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -247,8 +247,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -266,8 +266,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -285,8 +285,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -304,8 +304,8 @@ const Company = () => {
             <p class="mt-2 text-lg ">BUMN</p>
             <p class=" text-lg ">BATAM</p>
           </div>
-          <Link to='/Company/Company1' class="mt-4 text-center">
-            <a href="#" class="inline-block px-4 py-1.5 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+          <Link to='/Company/Company1' class="mt-6 text-center">
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
