@@ -47,7 +47,7 @@ const Getstart = () => {
               smooth={true}
               offset={150}
               duration={800}
-              className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-blue-600 cursor-pointer transition duration-500 transform hover:scale-105"
+              className="text-white w-fit px-10 py-1.5 my-2 flex items-center rounded-[25px] bg-blue-600 cursor-pointer transition duration-500 transform hover:scale-105"
             >
               Get Started
               <span>

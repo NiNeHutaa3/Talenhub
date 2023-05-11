@@ -51,7 +51,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -71,7 +71,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -91,7 +91,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -111,7 +111,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -131,7 +131,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -151,7 +151,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -171,7 +171,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -191,7 +191,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -211,7 +211,7 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -231,12 +231,12 @@ const Talent = () => {
             <p class=" text-lg ">Linkedid</p>
           </div>
           <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
       </div>  
-      <div className="absolute flex mt-[3300px] left-[100px] sm:mt-[1400px] sm:left-[530px] mb-10 bg-white rounded-lg ">
+      <div className="absolute flex mt-[3300px] left-[100px] sm:mt-[1400px] sm:left-[540px] mb-10 bg-white rounded-lg ">
     <button onClick={Back} className="h-12 border-2 border-r-0 border-blue-600 px-4 rounded-l-lg hover:bg-blue-600 hover:text-white">
       <AiOutlineLeft />
     </button>

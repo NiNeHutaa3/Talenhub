@@ -5,7 +5,18 @@ import { Link } from "react-router-dom";
 import {  motion } from "framer-motion";
 
 
-const Vacancy = () => {
+function Vacancy() {
+  const isLoggedIn = false; // contoh: user belum login
+
+  function handleApplyButtonClick() {
+    if (!isLoggedIn) {
+      // Jika user belum login, redirect ke halaman login
+      window.location.href = '/SignIn';
+    } else {
+      // Jika user sudah login, tampilkan form pengajuan lamaran
+      window.location.href = '/Vacancy/Vacancy1';
+    }
+  }
   const [searchText, setSearchText] = useState("");
   const [filterOption, setFilterOption] = useState("");
   const [filterType, setFilterType] = useState("");
@@ -55,7 +66,7 @@ const Vacancy = () => {
   
   return (
     <section className="section absolute flex h-full" >
-      <div className="w-1/3 " >
+      <div className="w-3/4  " >
         <motion.div 
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0, transition: { duration: 0.5 } }}
@@ -121,7 +132,7 @@ const Vacancy = () => {
                 value="type2"
                 checked={filterType.includes("type2")}
                 onChange={handleFilterTypeChange}
-                className="form-checkbox h-6 w-6 text-blue-600 rounded border-gray-300 focus:ring-2 focus:ring-blue-600"
+                className="form-checkbox h-4 w-4 text-blue-600 rounded border-gray-300 focus:ring-2 focus:ring-blue-600"
               />
               <span className="ml-2 ">Contract employees</span>
             </label>
@@ -193,32 +204,32 @@ const Vacancy = () => {
           </motion.div>
         </motion.div>
       </div>
-      <div class="flex flex-wrap justify-center mt-[3850px] sm:mt-[1310px]">
+      <div class="flex flex-wrap justify-center mt-[2150px] sm:mt-[900px]">
         <motion.div 
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -227,27 +238,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -256,27 +267,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -285,27 +296,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -314,27 +325,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -343,27 +354,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -372,27 +383,27 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
@@ -401,91 +412,33 @@ const Vacancy = () => {
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
         exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
+        class="p-2  rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
+          <div class="absolute top-1 right-2 ">
             <p class="text-sm text-gray-500">Full time</p>
             <p class="text-sm text-center text-gray-500">Batam</p>
           </div>
           <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
+            <div class="w-96 max-w-md flex">
+              <div class="w-20 h-20 right-10">
+                <img src={ Logo } alt="" class="w-16 h-16" />
               </div>
-              <div class="flex flex-col justify-between w-full">
+              <div class="flex flex-col mt-2 justify-between w-full">
                 <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
+                  <h2 class="text-base font-medium mr-12">Polibatam Software Team(PS Team)</h2>
+                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-12">Software engineer</p>
+                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-12">5Jt-10Jt</p>
+                  <p class="mt-2 mr-12 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
+                  <p class="mt-2 text-base mr-12">Registration end 01 Maret 2023</p>
                 </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div 
-        initial={{ opacity: 0, y: -100 }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
-        exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
-            <p class="text-sm text-gray-500">Full time</p>
-            <p class="text-sm text-center text-gray-500">Batam</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
-              </div>
-              <div class="flex flex-col justify-between w-full">
-                <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
-                </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div 
-        initial={{ opacity: 0, y: -100 }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
-        exit={{ opacity: 0, y: -100, transition: { duration: 0.8 } }}
-        class="p-4 rounded-xl shadow-xl mt-[-60px] mr-10 mb-20 relative">
-          <div class="absolute top-0 right-0 mt-3 mr-3">
-            <p class="text-sm text-gray-500">Full time</p>
-            <p class="text-sm text-center text-gray-500">Batam</p>
-          </div>
-          <div class="flex items-center justify-center">
-            <div class="w-full max-w-md flex">
-              <div class="w-24 h-24 mr-4 self-start">
-                <img src={ Logo } alt="" class="w-20 h-20 rounded-md" />
-              </div>
-              <div class="flex flex-col justify-between w-full">
-                <div class="text-center">
-                  <h2 class="text-base font-medium mr-20">Polibatam Software Team(PS Team)</h2>
-                  <p class="mt-2 text-lg text-blue-700 font-bold mb-2 mr-20">Software engineer</p>
-                  <p class="mt-2 text-lg text-blue-500 text-xl font-bold mb-2 mr-20">5Jt-10Jt</p>
-                  <p class="mt-2 mr-20 " >Pria/Perempuan Minimal lulusan SMK RPL/Teknik Informatika S1, D4,D3</p>
-                  <p class="mt-2 text-base mr-20">Registration end 01 Maret 2023</p>
-                </div>
-                <Link to='/Vacancy/Vacancy1' class="mt-8 text-center mr-20">
-                  <a href="#" class="inline-block px-4 text-lg text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600">Apply</a>
-                </Link>
+                <a onClick={handleApplyButtonClick} class="mt-4 text-center mr-12">
+                  <Link  class="inline-block px-4 text-lg text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600">Apply</Link>
+                </a>
               </div>
             </div>
           </div>
         </motion.div>
       </div>  
-      <div className="absolute flex mt-[8050px] left-[150px] sm:mt-[3000px] sm:left-[660px] bg-white rounded-lg ">
+      <div className="absolute flex mt-[4650px] left-[150px] sm:mt-[2110px] sm:left-[660px] bg-white rounded-lg ">
     <button onClick={Back} className="h-12 border-2 border-r-0 border-blue-600 px-4 rounded-l-lg hover:bg-blue-600 hover:text-white">
       <AiOutlineLeft />
     </button>

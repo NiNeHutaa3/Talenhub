@@ -17,6 +17,7 @@ import See from '../pages/See'
 import See1 from '../pages/See1'
 import SignUp from '../pages/SignUp'
 import SignIn from '../pages/SignIn'
+import SignIn1 from '../pages/SignIn1'
 import Vfirst from '../components/Vfirst'
 import Number from '../components/Number'
 import Tfirst from '../components/Tfirst'
@@ -32,6 +33,7 @@ const AnimRoutes = () => {
             <Route path='/Talent' element={<Talent />} />
             <Route path='/SignUp' element={<SignUp />} />
             <Route path='/SignIn' element={<SignIn />} />
+            <Route path='/SignIn1' element={<SignIn1 />} />
             <Route path='/Vacancy/Vacancy1' element={<Vacancy1 />} />
             <Route path='/Vacancy/Vacancy1/Vacancy2' element={<Vacancy2 />} />
             <Route path='/Profile' element={<Profile/>} />

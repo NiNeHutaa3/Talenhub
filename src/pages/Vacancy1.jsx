@@ -46,15 +46,15 @@ const Vacancy1 = () => {
           </div>
         </div>
         <hr className="border-gray-400 my-0.5" />
-        <div className="flex  flex-wrap  justify-start items-center p-3">
-          <div className="flex flex-col items-center mb-4 md:mb-0 md:mr-20">
+        <div className="flex  flex-wrap  justify-start  items-center p-3">
+          <div className="flex flex-col items-center mb-4 sm:mr-0 mr-5 md:mb-0 md:mr-20">
             <p className="mt-1">Lokasi</p>
             <div className="flex items-center">
               <MdLocationPin />
               <p className="ml-2">Batam</p>
             </div>
           </div>
-          <div className="flex flex-col items-center mb-4 md:mb-0 md:mr-20">
+          <div className="flex flex-col items-center mb-4 sm:mr-0 mr-5 md:mb-0 md:mr-20">
             <p className="mt-1">Type</p>
             <div className="flex items-center">
               <TbClockHour8 />

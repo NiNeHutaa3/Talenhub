@@ -61,7 +61,7 @@ const Number = () => {
         <img className="h-12 w-12 mr-2" src={Image1} alt="gambar" />
         <motion.div className="flex flex-col">
           <span className="text-xl text-blue-600 font-bold mb-0">{count1}</span>
-          <span className="text-2xl text-blue-600 font-medium">Industry</span>
+          <span className="text-2xl text-blue-500 font-medium">Industry</span>
         </motion.div>
       </motion.div>
       <motion.div 
@@ -81,7 +81,7 @@ const Number = () => {
         <motion.div 
           className="flex flex-col">
           <span className="text-xl text-blue-600 font-bold mb-0">{count2}</span>
-          <span className="text-2xl text-blue-600 font-medium">Job Vacancy</span>
+          <span className="text-2xl text-blue-500 font-medium">Job Vacancy</span>
         </motion.div>
       </motion.div>
       <motion.div 
@@ -101,7 +101,7 @@ const Number = () => {
         <motion.div 
           className="flex flex-col">
           <span className="text-xl text-blue-600 font-bold mb-0">{count3}</span>
-          <span className="text-2xl text-blue-600 font-medium">Student</span>
+          <span className="text-2xl text-blue-500 ">Student</span>
         </motion.div>
       </motion.div>
     </div>

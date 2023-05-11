@@ -134,7 +134,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -153,7 +153,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -172,7 +172,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -191,7 +191,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -210,7 +210,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -229,7 +229,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -248,7 +248,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -267,7 +267,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -286,7 +286,7 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
@@ -305,10 +305,11 @@ const Company = () => {
             <p class=" text-lg ">BATAM</p>
           </div>
           <Link to='/Company/Company1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-full shadow-md hover:bg-blue-600 ">VIEW MORE</a>
+            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
           </Link>
         </div>
       </motion.div>
+      
       </div>  
       <div className="absolute flex mt-[6000px] left-[150px] sm:mt-[2850px] sm:left-[690px] mb-10 bg-white rounded-lg ">
     <button onClick={Back} className="h-12 border-2 border-r-0 border-blue-600 px-4 rounded-l-lg hover:bg-blue-600 hover:text-white">
