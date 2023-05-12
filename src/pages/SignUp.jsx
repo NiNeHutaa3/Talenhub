@@ -44,6 +44,17 @@ const SignUp = () => {
           </div>
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
+              Phone Number
+            </label>
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-4 sm:px-12 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="phonenumber"
+              type="text"
+              placeholder="Input your Phone Number"
+            />
+          </div>
+          <div className="mb-4">
+            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
               Username
             </label>
             <input
@@ -144,7 +155,7 @@ const SignUp = () => {
       <div className="flex justify-end items-center absolute inset-0 pr-[90px]">
       
         <motion.form
-          className="bg-white shadow-md rounded-[30px] px-[5%] sm:px-[110px] py-[5%] sm:py-[70px]"
+          className="bg-white shadow-md rounded-[30px] px-[5%] sm:px-[110px] py-[5%] sm:py-[30px]"
           initial={{ x: '100%' }}
           animate={{ x: 0 }}
           transition={transition}

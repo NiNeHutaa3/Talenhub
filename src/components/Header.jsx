@@ -59,6 +59,7 @@ const Header = () => {
       location.pathname === '/Profile' || 
       location.pathname === '/Company/Company1' || 
       location.pathname === '/Talent/Talent1' || 
+      location.pathname === '/Talent/Talent1.1' ||
       location.pathname === '/Profile' || 
       location.pathname === '/See' || 
       location.pathname === '/See/See1' || 

@@ -10,6 +10,7 @@ import Company from '../pages/Company'
 import Company1 from '../pages/Company1'
 import Talent from '../pages/Talent'
 import Talent1 from '../pages/Talent1'
+import Talent11 from '../pages/Talent1.1'
 import Start from './Start'
 import Make from '../pages/make'
 import Manage from '../pages/Manage'
@@ -43,6 +44,7 @@ const AnimRoutes = () => {
             <Route path='/See/See1' element={<See1 />} />
             <Route path='/Company/Company1' element={<Company1 />} />
             <Route path='/Talent/Talent1' element={<Talent1 />} />
+            <Route path='/Talent/Talent1.1' element={<Talent11 />} />
         </Routes>
     )
 }

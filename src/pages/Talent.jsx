@@ -6,7 +6,18 @@ import {  motion } from "framer-motion";
 
 
 const Talent = () => {
+  const isLoggedIn = false; // contoh: user belum login
 
+  function handleApplyButtonClick() {
+    if (!isLoggedIn) {
+      // Jika user belum login, redirect ke halaman login
+      window.location.href = '/Talent/Talent1.1';
+    } else {
+      // Jika user sudah login, tampilkan form pengajuan lamaran
+      window.location.href = '/Talent/Talent1';
+    }
+  }
+  
   let [num,setNum] = useState(1)
   let [cur,setCur] = useState(1)
 
@@ -50,9 +61,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -70,9 +81,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -90,9 +101,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -110,9 +121,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -130,9 +141,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -150,9 +161,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -170,9 +181,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -190,9 +201,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -210,9 +221,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       <motion.div 
@@ -230,9 +241,9 @@ const Talent = () => {
             <p class=" text-lg ">Tiban</p>
             <p class=" text-lg ">Linkedid</p>
           </div>
-          <Link to='/Talent/Talent1' class="mt-6 text-center">
-            <a href="#" class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</a>
-          </Link>
+          <a onClick={handleApplyButtonClick} class="mt-6 text-center">
+            <Link class="inline-block px-4 py-1 text-sm text-white bg-blue-500 rounded-[10px] shadow-md hover:bg-blue-600 ">VIEW MORE</Link>
+          </a>
         </div>
       </motion.div>
       </div>  
